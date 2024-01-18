@@ -66,6 +66,8 @@ if (isset($_POST['LonCler'])) {
  curl_close($ch); 
  print_r(json_decode($result)); 
 
+ 
+
     // if($balancerem <= 0) {
     //     $balancerem = $mysqli->real_escape_string(filter_var(0,FILTER_SANITIZE_NUMBER_INT));
     // }
@@ -82,3 +84,5 @@ if (isset($_POST['LonCler'])) {
     // }
 }
 ?>
+
+helo payments
